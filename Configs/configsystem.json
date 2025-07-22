@@ -158,6 +158,29 @@
             "false",
             "false",
             "false"
-        ]
-    }
+        ],
+		"USBSwitcherHostname":["Somehost name"],
+        "USBSwitcherUsername": ["Somehost username"],
+        "USBSwitcherPassword": ["Somehost passworc"],
+        "USBSwitcherDebugname": ["Somehost debugname"],
+        "USBSwitcherPortnumber": [2234],
+		
+		"LightingPresetNames":
+		[
+				"Preset1",
+				"Preset2",
+				"Preset3",
+				"Preset4",
+				"Preset5"
+		],
+		"LightingPresetVisiblity":
+		[
+				"True",
+				"True",
+				"True",
+				"True",
+				"True"
+		]
+
+	}
 }
