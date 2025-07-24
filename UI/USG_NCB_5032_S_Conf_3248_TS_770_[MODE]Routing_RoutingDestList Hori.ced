@@ -8,13 +8,13 @@ VTProeVer=6.2.02
 ]
 [
 ObjTp=Symbol
-Name=USG_NCB_5032_S_Conf_3248_TS_770_[MODE]Routing_RoutingDestList.ced
-Hint=RoutingDestList (Smart Object ID=2)
-Code=3
+Name=USG_NCB_5032_S_Conf_3248_TS_770_[MODE]Routing_RoutingDestList Hori.ced
+Hint=RoutingDestList Hori (Smart Object ID=9)
+Code=5
 SGControlType=Subpage Reference List Horizontal
-SGControlName=RoutingDestList
-GUID=D0C77B9F-1459-4506-A0D6-3A8283C43A01
-SmplCName=USG_NCB_5032_S_Conf_3248_TS_770_[MODE]Routing_RoutingDestList.ced
+SGControlName=RoutingDestList Hori
+GUID=44E750BE-0551-40D1-976E-C60F4237835A
+SmplCName=USG_NCB_5032_S_Conf_3248_TS_770_[MODE]Routing_RoutingDestList Hori.ced
 SMWRev=4.02.20
 Expand=expand_random
 HelpID=10124
@@ -376,17 +376,17 @@ OutputList3SigType32=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=3
-CedH=3
-SmartObjId=2d
+Pp1=5
+CedH=5
+SmartObjId=9d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=3
+H=5
 Tp=1
 HD=TRUE
-DV=2d
+DV=9d
 NF=1
 DNF=1
 EncFmt=0
@@ -396,8 +396,8 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=3
-Name=USG_NCB_5032_S_Conf_3248_TS_770_[MODE]Routing_RoutingDestList.ced
+H=5
+Name=USG_NCB_5032_S_Conf_3248_TS_770_[MODE]Routing_RoutingDestList Hori.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
 CedVer=1

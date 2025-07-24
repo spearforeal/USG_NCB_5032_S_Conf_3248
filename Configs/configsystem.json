@@ -1,7 +1,7 @@
 {
     "SystemConfig": {
         "CustomerNumber": [
-            "3255"
+            "3248"
         ],
         "SiteNumber": [
             "59288311"
@@ -10,12 +10,12 @@
             "Touch Screen to Start"
         ],
         "RoutingInstructions": [
-            "Select the source and location you woule like to route the source to."
+            "Select the source and location you would like to route the source to."
         ],
         "ModeNames": [
             "Routing",
             "Display Control",
-            "Mode 3",
+            "Lighting Control",
             "Mode 4",
             "Mode 5",
             "Mode 6",
@@ -33,7 +33,7 @@
         "ModeIcons": [
             "TV",
             "Display",
-            "Display",
+            "Shades",
             "Display",
             "Display",
             "Display",
@@ -161,26 +161,44 @@
         ],
 		"USBSwitcherHostname":["Somehost name"],
         "USBSwitcherUsername": ["Somehost username"],
-        "USBSwitcherPassword": ["Somehost passworc"],
+        "USBSwitcherPassword": ["Somehost password"],
         "USBSwitcherDebugname": ["Somehost debugname"],
         "USBSwitcherPortnumber": [2234],
 		
 		"LightingPresetNames":
 		[
-				"Preset1",
-				"Preset2",
-				"Preset3",
-				"Preset4",
-				"Preset5"
+			"All On",
+			"All Off",
+			"Preset3",
+			"Preset4",
+			"Preset5"
 		],
-		"LightingPresetVisiblity":
+		"LightingPresetVisibility":
 		[
-				"True",
-				"True",
-				"True",
-				"True",
-				"True"
-		]
+			"False",
+			"False",
+			"False",
+			"False",
+			"False"
+		],
+        "ShadeVisibility":
+        [
+            "True", 
+            "True",
+            "True",
+            "False",
+            "False",
+            "False"
+        ],
+        "ShadeIcon":
+        [
+            "Up Alt",
+            "Stop",
+            "Down Alt",
+            "Stop",
+            "Stop",
+            "Stop"
+        ]
 
 	}
 }
